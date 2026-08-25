@@ -108,3 +108,13 @@ Error Analysis
       │
       ▼
 Citation Prediction
+
+---
+
+##  License
+
+This project is licensed under the MIT License.
+
+---
+
+I am open to more collaborations and recommendations on this notebook.
