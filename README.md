@@ -8,12 +8,9 @@ The project demonstrates a complete machine learning pipeline covering data coll
 
 ## Kaggle Notebook
 
-The complete analysis is available as an interactive Kaggle Notebook.
+The original notebook is available on [Kaggle](https://www.kaggle.com/code/utkarshjain76/do-research-papers-have-an-impact). The notebook is in a descriptive and interactive format.
 
-**Kaggle Notebook:**  
-[Research Paper Citation Analysis](https://www.kaggle.com/)
-
-The notebook provides an interactive implementation of the complete workflow, from scholarly metadata extraction to model-based citation prediction.
+A fully generated dataset is also available on [Kaggle](https://www.kaggle.com/datasets/utkarshjain76/research-paper-citation-metadata). There are two versions of the dataset available, one is in Excel format for easy understanding of the generated dataset, and the other is in CSV format for machine use.
 
 ---
 
