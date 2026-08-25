@@ -108,7 +108,124 @@ Error Analysis
       │
       ▼
 Citation Prediction
+```
+---
 
+## Dataset
+
+The dataset is generated from scholarly metadata collected through the [OpenAlex API](https://openalex.org/).
+
+Depending on the stage of the pipeline, the collected information can include:
+
+- Research paper information
+- Publication year
+- Citation count
+- Authors
+- Research concepts / topics
+- Sources / journals
+- Open-access information
+- Other available scholarly metadata
+
+The collected metadata is subsequently transformed into machine-learning-ready features.
+
+---
+
+## Data Analysis
+
+The exploratory analysis focuses on understanding the structure and behavior of citation data.
+
+Key analysis areas include:
+
+- Citation-count distribution
+- Feature distributions
+- Missing values
+- Data quality
+- Correlations between variables
+- Outlier identification
+- Relationships between scholarly metadata and citation counts
+
+This stage provides the foundation for feature selection and subsequent model development.
+
+---
+
+## Machine Learning
+
+The project treats citation count as a regression problem.
+
+The machine learning pipeline includes:
+
+### Data Preprocessing
+
+- Data cleaning
+- Missing-value handling
+- Feature transformation
+- Feature preparation
+- Train/test splitting
+
+### Model Development
+
+Multiple regression approaches are evaluated to identify models capable of capturing relationships between scholarly metadata and citation counts.
+
+### Hyperparameter Tuning
+
+Model parameters are optimized to investigate whether improved configurations can produce better predictive performance.
+
+### Model Evaluation
+
+Models are evaluated using appropriate regression metrics and compared to identify differences in predictive performance.
+
+---
+
+## Explainability
+
+Model explainability is incorporated to understand the factors contributing to citation predictions.
+
+Instead of evaluating models solely on predictive performance, the project investigates:
+
+- Which features influence predictions
+- Relative feature importance
+- How individual characteristics affect model output
+- Whether the learned relationships provide meaningful scholarly insights
+
+This provides greater interpretability for a machine learning system operating on research-impact data.
+
+---
+
+## Error Analysis
+
+Prediction errors are analyzed to understand the limitations of the developed models.
+
+The analysis investigates:
+
+- Large prediction errors
+- Difficult-to-predict papers
+- Outliers
+- Systematic prediction patterns
+- Differences between actual and predicted citation counts
+
+Error analysis helps identify areas where additional data or improved modeling techniques may be required.
+
+---
+
+## New Paper Prediction
+
+The completed pipeline can be applied to the metadata of a new research paper to generate an estimated citation outcome.
+
+```text
+New Research Paper
+        │
+        ▼
+Metadata Extraction
+        │
+        ▼
+Feature Transformation
+        │
+        ▼
+Trained ML Model
+        │
+        ▼
+Predicted Citation Impact
+```
 ---
 
 ##  License
