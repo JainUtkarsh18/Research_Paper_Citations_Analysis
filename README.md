@@ -10,7 +10,7 @@ The project demonstrates a complete machine learning pipeline covering data coll
 
 The original notebook is available on [Kaggle](https://www.kaggle.com/code/utkarshjain76/do-research-papers-have-an-impact). The notebook is in a descriptive and interactive format.
 
-A fully generated dataset is also available on [Kaggle](https://www.kaggle.com/datasets/utkarshjain76/research-paper-citation-metadata). There are two versions of the dataset available, one is in Excel format for easy understanding of the generated dataset, and the other is in CSV format for machine use.
+A fully generated dataset is also available on [Kaggle](https://www.kaggle.com/datasets/utkarshjain76/research-paper-citation-metadata). There are two versions of the dataset available, one is in Excel format for easy understanding of the generated dataset, and the other is in CSV format for machine use. 
 
 ---
 
