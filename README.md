@@ -12,6 +12,8 @@ The original notebook is available on [Kaggle](https://www.kaggle.com/code/utkar
 
 A fully generated dataset is also available on [Kaggle](https://www.kaggle.com/datasets/utkarshjain76/research-paper-citation-metadata). There are two versions of the dataset available, one is in Excel format for easy understanding of the generated dataset, and the other is in CSV format for machine use. 
 
+The notebook named "Research Impact Intelligence: A Structured Bibliom" [Kaggle](https://www.kaggle.com/code/utkarshjain76/research-impact-intelligence-a-structured-bibliom) is an advanced analysis of the generated metadata.
+
 ---
 
 ## About OpenAlex
