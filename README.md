@@ -18,7 +18,7 @@ The notebook named "Research Impact Intelligence: A Structured Bibliom" [Kaggle]
 
 ## About OpenAlex
 
-[OpenAlex](https://openalex.org/) is an open catalog of the global research system containing information about scholarly works, authors, institutions, sources, topics, and citations.
+[OpenAlex](https://openalex.org/) is an open catalogue of the global research system containing information about scholarly works, authors, institutions, sources, topics, and citations.
 
 This project uses OpenAlex as the primary data source to collect research-paper metadata and investigate whether measurable characteristics of scholarly publications can provide useful signals for citation prediction.
 
